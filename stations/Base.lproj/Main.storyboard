@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Поиск-->
+        <!--Расписание-->
         <scene sceneID="JKn-RX-gJr">
             <objects>
                 <tableViewController id="0eb-Xz-ueV" customClass="MainScreen" customModule="stations" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,8 +106,8 @@
                             <outlet property="delegate" destination="0eb-Xz-ueV" id="eqA-24-8Gx"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="KO4-6n-1Ep"/>
-                    <navigationItem key="navigationItem" title="Поиск" id="Ht9-0G-i8I"/>
+                    <tabBarItem key="tabBarItem" title="" id="KO4-6n-1Ep"/>
+                    <navigationItem key="navigationItem" title="Расписание" id="Ht9-0G-i8I"/>
                     <connections>
                         <outlet property="dateCell" destination="YgB-qe-cSM" id="hoh-VG-CtH"/>
                         <outlet property="datePickerTextField" destination="u6R-nL-rHT" id="Mx8-At-x4U"/>
@@ -390,7 +390,7 @@
                             <constraint firstItem="Mq9-Ql-h8e" firstAttribute="centerY" secondItem="BI6-QG-nu0" secondAttribute="centerY" id="jlm-w5-OZq"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" systemItem="contacts" id="v15-MC-5z4"/>
+                    <tabBarItem key="tabBarItem" title="" id="v15-MC-5z4"/>
                     <navigationItem key="navigationItem" title="О приложении" id="Duu-Mf-C7j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJK-Bk-aph" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -416,11 +416,11 @@
             </objects>
             <point key="canvasLocation" x="-2831" y="404"/>
         </scene>
-        <!--Item-->
+        <!--О приложении-->
         <scene sceneID="CEE-uO-yFs">
             <objects>
                 <navigationController id="s3Z-x6-o8Q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7dk-57-mio"/>
+                    <tabBarItem key="tabBarItem" title="О приложении" id="7dk-57-mio"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="B1Y-Mx-OUD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -433,11 +433,11 @@
             </objects>
             <point key="canvasLocation" x="-1909" y="746"/>
         </scene>
-        <!--Item-->
+        <!--Расписание-->
         <scene sceneID="NhP-OG-BSf">
             <objects>
                 <navigationController id="86A-b4-6RC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oxl-y8-jsD"/>
+                    <tabBarItem key="tabBarItem" title="Расписание" id="oxl-y8-jsD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lr6-wH-zBW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
