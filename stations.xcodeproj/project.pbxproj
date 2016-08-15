@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF52180A1D5A78CD008DB784 /* StationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5218091D5A78CD008DB784 /* StationDetailScreen.swift */; };
+		BF20AF371D61F52A00B2BBA4 /* StationsRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20AF361D61F52A00B2BBA4 /* StationsRequestDelegate.swift */; };
+		BF20AF3B1D61F53E00B2BBA4 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20AF381D61F53E00B2BBA4 /* MainScreen.swift */; };
+		BF20AF3C1D61F53E00B2BBA4 /* StationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20AF391D61F53E00B2BBA4 /* StationDetailScreen.swift */; };
+		BF20AF3D1D61F53E00B2BBA4 /* StationsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20AF3A1D61F53E00B2BBA4 /* StationsListScreen.swift */; };
 		BF7A237E1D5F33800099B783 /* StationsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A237D1D5F33800099B783 /* StationsRequest.swift */; };
 		BF7A23801D5F39640099B783 /* LoadStationsMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A237F1D5F39640099B783 /* LoadStationsMethod.swift */; };
 		BF7A23821D5F39FE0099B783 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A23811D5F39FE0099B783 /* RequestMethod.swift */; };
@@ -15,7 +18,6 @@
 		BF7AC4F51D5B8F36009E615D /* StationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7AC4F41D5B8F36009E615D /* StationsController.swift */; };
 		BF7AC4FB1D5BC49D009E615D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7AC4FA1D5BC49D009E615D /* StringExtension.swift */; };
 		BF89B0511D60E4BD008C5F72 /* AbstractObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B0501D60E4BD008C5F72 /* AbstractObject.swift */; };
-		BF89B0531D610633008C5F72 /* StationsRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B0521D610633008C5F72 /* StationsRequestDelegate.swift */; };
 		BF89BF771D61D78B002AE8E6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89BF761D61D78B002AE8E6 /* Log.swift */; };
 		BF89BF7A1D61E182002AE8E6 /* StationSelectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89BF791D61E182002AE8E6 /* StationSelectDelegate.swift */; };
 		BF8D4A981D5917A1003D1B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D4A971D5917A1003D1B89 /* AppDelegate.swift */; };
@@ -26,16 +28,17 @@
 		BF8D4AAF1D5918BA003D1B89 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D4AAE1D5918BA003D1B89 /* Station.swift */; };
 		BF8D4AB21D591C83003D1B89 /* FilesUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D4AB11D591C83003D1B89 /* FilesUtils.swift */; };
 		BF8D4AB51D591E71003D1B89 /* allStations.json in Resources */ = {isa = PBXBuildFile; fileRef = BF8D4AB41D591E71003D1B89 /* allStations.json */; };
-		BF8D4AB81D59218B003D1B89 /* StationsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D4AB71D59218B003D1B89 /* StationsListScreen.swift */; };
 		BF8D8C251D59FC5A00673BE6 /* CitiesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D8C241D59FC5A00673BE6 /* CitiesContainer.swift */; };
 		BF8D8C271D59FCEA00673BE6 /* LocationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D8C261D59FCEA00673BE6 /* LocationPoint.swift */; };
-		BF8D8C2D1D5A0D0200673BE6 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D8C2C1D5A0D0200673BE6 /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60C22F487980121EB5453F28 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6F313568DFB5D906FD20E352 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5218091D5A78CD008DB784 /* StationDetailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationDetailScreen.swift; path = Screens/StationDetailScreen.swift; sourceTree = "<group>"; };
+		BF20AF361D61F52A00B2BBA4 /* StationsRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationsRequestDelegate.swift; path = Delegates/StationsRequestDelegate.swift; sourceTree = "<group>"; };
+		BF20AF381D61F53E00B2BBA4 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreen.swift; path = UI/Screens/MainScreen.swift; sourceTree = "<group>"; };
+		BF20AF391D61F53E00B2BBA4 /* StationDetailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationDetailScreen.swift; path = UI/Screens/StationDetailScreen.swift; sourceTree = "<group>"; };
+		BF20AF3A1D61F53E00B2BBA4 /* StationsListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationsListScreen.swift; path = UI/Screens/StationsListScreen.swift; sourceTree = "<group>"; };
 		BF7A237D1D5F33800099B783 /* StationsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationsRequest.swift; path = Api/StationsRequest.swift; sourceTree = "<group>"; };
 		BF7A237F1D5F39640099B783 /* LoadStationsMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadStationsMethod.swift; path = Api/LoadStationsMethod.swift; sourceTree = "<group>"; };
 		BF7A23811D5F39FE0099B783 /* RequestMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestMethod.swift; path = Api/RequestMethod.swift; sourceTree = "<group>"; };
@@ -43,7 +46,6 @@
 		BF7AC4F41D5B8F36009E615D /* StationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationsController.swift; path = Controllers/StationsController.swift; sourceTree = "<group>"; };
 		BF7AC4FA1D5BC49D009E615D /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Extensions/StringExtension.swift; sourceTree = "<group>"; };
 		BF89B0501D60E4BD008C5F72 /* AbstractObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractObject.swift; path = Models/AbstractObject.swift; sourceTree = "<group>"; };
-		BF89B0521D610633008C5F72 /* StationsRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationsRequestDelegate.swift; path = Api/StationsRequestDelegate.swift; sourceTree = "<group>"; };
 		BF89BF761D61D78B002AE8E6 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Utils/Log.swift; sourceTree = "<group>"; };
 		BF89BF791D61E182002AE8E6 /* StationSelectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationSelectDelegate.swift; path = Delegates/StationSelectDelegate.swift; sourceTree = "<group>"; };
 		BF8D4A941D5917A1003D1B89 /* stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stations.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,10 +58,8 @@
 		BF8D4AAE1D5918BA003D1B89 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Station.swift; path = models/Station.swift; sourceTree = "<group>"; };
 		BF8D4AB11D591C83003D1B89 /* FilesUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilesUtils.swift; path = Utils/FilesUtils.swift; sourceTree = "<group>"; };
 		BF8D4AB41D591E71003D1B89 /* allStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allStations.json; path = Resources/allStations.json; sourceTree = "<group>"; };
-		BF8D4AB71D59218B003D1B89 /* StationsListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationsListScreen.swift; path = Screens/StationsListScreen.swift; sourceTree = "<group>"; };
 		BF8D8C241D59FC5A00673BE6 /* CitiesContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesContainer.swift; path = models/CitiesContainer.swift; sourceTree = "<group>"; };
 		BF8D8C261D59FCEA00673BE6 /* LocationPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPoint.swift; path = models/LocationPoint.swift; sourceTree = "<group>"; };
-		BF8D8C2C1D5A0D0200673BE6 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreen.swift; path = Screens/MainScreen.swift; sourceTree = "<group>"; };
 		F8E31556F7F8D2DAE042793B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				BF89BF791D61E182002AE8E6 /* StationSelectDelegate.swift */,
-				BF89B0521D610633008C5F72 /* StationsRequestDelegate.swift */,
+				BF20AF361D61F52A00B2BBA4 /* StationsRequestDelegate.swift */,
 			);
 			name = Delegates;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 		BF8D4AB61D59216A003D1B89 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				BF8D8C2C1D5A0D0200673BE6 /* MainScreen.swift */,
-				BF8D4AB71D59218B003D1B89 /* StationsListScreen.swift */,
-				BF5218091D5A78CD008DB784 /* StationDetailScreen.swift */,
+				BF20AF381D61F53E00B2BBA4 /* MainScreen.swift */,
+				BF20AF391D61F53E00B2BBA4 /* StationDetailScreen.swift */,
+				BF20AF3A1D61F53E00B2BBA4 /* StationsListScreen.swift */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -288,23 +288,23 @@
 			files = (
 				BF8D4AB21D591C83003D1B89 /* FilesUtils.swift in Sources */,
 				BF8D4A981D5917A1003D1B89 /* AppDelegate.swift in Sources */,
+				BF20AF3D1D61F53E00B2BBA4 /* StationsListScreen.swift in Sources */,
 				BF8D8C251D59FC5A00673BE6 /* CitiesContainer.swift in Sources */,
 				BF7AC4F51D5B8F36009E615D /* StationsController.swift in Sources */,
-				BF52180A1D5A78CD008DB784 /* StationDetailScreen.swift in Sources */,
 				BF7A23821D5F39FE0099B783 /* RequestMethod.swift in Sources */,
 				BF8D8C271D59FCEA00673BE6 /* LocationPoint.swift in Sources */,
 				BF8D4AAF1D5918BA003D1B89 /* Station.swift in Sources */,
-				BF8D4AB81D59218B003D1B89 /* StationsListScreen.swift in Sources */,
+				BF20AF371D61F52A00B2BBA4 /* StationsRequestDelegate.swift in Sources */,
 				BF89B0511D60E4BD008C5F72 /* AbstractObject.swift in Sources */,
-				BF8D8C2D1D5A0D0200673BE6 /* MainScreen.swift in Sources */,
+				BF20AF3B1D61F53E00B2BBA4 /* MainScreen.swift in Sources */,
 				BF7A23801D5F39640099B783 /* LoadStationsMethod.swift in Sources */,
 				BF7A23841D5F3B9F0099B783 /* StationsApi.swift in Sources */,
+				BF20AF3C1D61F53E00B2BBA4 /* StationDetailScreen.swift in Sources */,
 				BF89BF771D61D78B002AE8E6 /* Log.swift in Sources */,
 				BF89BF7A1D61E182002AE8E6 /* StationSelectDelegate.swift in Sources */,
 				BF7AC4FB1D5BC49D009E615D /* StringExtension.swift in Sources */,
 				BF7A237E1D5F33800099B783 /* StationsRequest.swift in Sources */,
 				BF8D4AAB1D5917E7003D1B89 /* City.swift in Sources */,
-				BF89B0531D610633008C5F72 /* StationsRequestDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
